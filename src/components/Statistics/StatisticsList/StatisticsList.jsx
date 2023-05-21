@@ -1,4 +1,3 @@
-// import css from './StatisticsList.module.css'
 import { StatList, Item, Label, Percentage } from './StatisticsList.styled'
 import PropTypes from 'prop-types'
 

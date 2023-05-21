@@ -6,15 +6,15 @@ export const TableCell = styled.td`
   border-left: 1px solid #ccc;
 
   &:first-child {
-  text-transform: capitalize;
-  text-align: left;
-  padding-left: 5vw;
-  border-left: none;
-}
-`
+    text-transform: capitalize;
+    text-align: left;
+    padding-left: 5vw;
+    border-left: none;
+  }
+`;
 
 export const TableRow = styled.tr`
   &:nth-child(even) {
-  background-color: #e7e7e7;
-}
-`
+    background-color: pink;
+  }
+`;

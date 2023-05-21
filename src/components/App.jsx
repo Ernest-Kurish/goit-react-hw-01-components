@@ -10,14 +10,15 @@ import transactions from 'data/transactions'
 export const App = () => {
   return (
     <>
-      <h2>1 - Профіль соціальної мережі</h2>
+      <h3>1 - Social Link Profile</h3>
       <ProfileCard user={user} />
-      <h2>2- Секція статистики</h2>
+      <h3>2 - Statistics Section</h3>
       <Statistics title="Upload stats" data={data} />
-      <h2>3 - Список друзів</h2>
+      <h3>3 - Friends List</h3>
       <FriendList friends={friends} />
-      <h2>4 - Історія транзакцій</h2>
+      <h3>4 - Transaction History</h3>
       <TransactionHistory transactions={transactions} />
     </>
   );
 };
+
